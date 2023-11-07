@@ -11,7 +11,7 @@ class PoliItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       child: Card(
-        child: ListTile(
+        child: ListTile(  
           title: Text("${poli.namaPoli}"),
         ),
       ),
